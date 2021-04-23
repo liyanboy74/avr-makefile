@@ -1,6 +1,4 @@
-//#define __AVR_ATmega16__
 #define F_CPU   8000000UL
-
 #define LED_PIN 0
 
 #include <avr/io.h>

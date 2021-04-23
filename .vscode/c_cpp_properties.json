@@ -6,11 +6,10 @@
                 "${workspaceFolder}/**",
                 "/usr/lib/avr/include"
             ],
-            "defines": [],
+            "defines": ["__AVR_ATmega16__"],
             "compilerPath": "/usr/bin/avr-g++",
             "cStandard": "gnu17",
-            "cppStandard": "gnu++14",
-            "intelliSenseMode": "linux-gcc-x64"
+            "cppStandard": "gnu++14"
         }
     ],
     "version": 4
