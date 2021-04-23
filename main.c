@@ -4,12 +4,14 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
+#include "led.h"
+
 int main ()
 {
     DDRB=0xff;
     while(1)
     {
-        PORTB^=(1<<LED_PIN);
+        blink();
         _delay_ms(500);
     }
     return 0;
