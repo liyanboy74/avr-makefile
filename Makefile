@@ -1,12 +1,12 @@
 PROJECT		=	blink
-DEVICE		=	atmega16
+DEVICE 		=	atmega16
 
-CC			=	avr-gcc 
-OC			=	avr-objcopy
-SIZE		=	avr-size
+CC     		=	avr-gcc 
+OC     		=	avr-objcopy
+SIZE    	=	avr-size
 
-FLAGS		=	-Wall -Os
-CCC			=	$(CC) $(FLAGS) -mmcu=$(DEVICE)
+FLAGS   	=	-Wall -Os
+CCC	    	=	$(CC) $(FLAGS) -mmcu=$(DEVICE)
 
 
 default : compile
